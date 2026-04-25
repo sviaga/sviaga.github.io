@@ -1,0 +1,636 @@
+﻿{
+  "WatchFace_Info": {
+    "DeviceName": "Bip 6",
+    "WatchFaceId": 3707638,
+    "Preview": "0002"
+  },
+  "ScreenNormal": {
+    "Background": {
+      "visible": true,
+      "BackgroundColor": {
+        "show_level": "ONLY_NORMAL",
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 450,
+        "color": "0xFF4AC49B"
+      }
+    },
+    "Elements": [
+      {
+        "elementName": "AnalogTime",
+        "visible": true,
+        "show_level": "",
+        "Second": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "src": "0004",
+          "center_x": 195,
+          "center_y": 225,
+          "pos_x": 300,
+          "pos_y": 300,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        }
+      },
+      {
+        "elementName": "ElementSpO2",
+        "visible": true,
+        "Icon": {
+          "position": 1,
+          "visible": true,
+          "show_level": "",
+          "x": 0,
+          "y": 0,
+          "src": "0026",
+          "alpha": 255
+        }
+      },
+      {
+        "elementName": "ElementImage",
+        "visible": true,
+        "Icon": {
+          "position": 1,
+          "visible": true,
+          "show_level": "",
+          "x": 0,
+          "y": 0,
+          "src": "0025",
+          "alpha": 255
+        }
+      },
+      {
+        "elementName": "ElementStatuses",
+        "visible": true,
+        "Alarm": {
+          "position": 2,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "x": 385,
+          "y": 214,
+          "src": "0059",
+          "alpha": 255,
+          "type": "Alarm"
+        },
+        "Bluetooth": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "x": 0,
+          "y": 214,
+          "src": "0058",
+          "alpha": 255,
+          "type": "Bluetooth"
+        }
+      },
+      {
+        "elementName": "DateDay",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 280,
+          "imageY": 51,
+          "space": -2,
+          "zero": true,
+          "img_First": "0048",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "alpha": 255,
+          "icon_alpha": 255,
+          "type": "DAY"
+        }
+      },
+      {
+        "elementName": "DateMonth",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONLY_NORMAL",
+          "X": 203,
+          "Y": 45,
+          "img_First": "0035",
+          "image_length": 0,
+          "alpha": 255,
+          "type": "MONTH"
+        }
+      },
+      {
+        "elementName": "DateWeek",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONLY_NORMAL",
+          "X": 40,
+          "Y": 366,
+          "img_First": "0027",
+          "image_length": 0,
+          "alpha": 255
+        }
+      },
+      {
+        "elementName": "DigitalTime_v2",
+        "visible": true,
+        "Group_Minute": {
+          "position": 1,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "ONLY_NORMAL",
+            "imageX": 208,
+            "imageY": 173,
+            "space": 0,
+            "zero": true,
+            "img_First": "0015",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false,
+            "alpha": 255,
+            "icon_alpha": 255
+          }
+        },
+        "Group_Hour": {
+          "position": 2,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "ONLY_NORMAL",
+            "imageX": 16,
+            "imageY": 138,
+            "space": 0,
+            "zero": true,
+            "img_First": "0005",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false,
+            "alpha": 255,
+            "icon_alpha": 255
+          }
+        }
+      }
+    ]
+  },
+  "ScreenAOD": {
+    "Elements": [
+      {
+        "elementName": "DigitalTime_v2",
+        "visible": true,
+        "Group_Minute": {
+          "position": 1,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "ONLY_AOD",
+            "imageX": 208,
+            "imageY": 173,
+            "space": 0,
+            "zero": true,
+            "img_First": "0015",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false,
+            "alpha": 255,
+            "icon_alpha": 255
+          }
+        },
+        "Group_Hour": {
+          "position": 2,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "ONLY_AOD",
+            "imageX": 16,
+            "imageY": 138,
+            "space": 0,
+            "zero": true,
+            "img_First": "0005",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false,
+            "alpha": 255,
+            "icon_alpha": 255
+          }
+        }
+      }
+    ]
+  },
+  "DisconnectAlert": {
+    "enable": true,
+    "BluetoothOff": {
+      "vibrate": true,
+      "vibrateType": 9,
+      "toastShow": true,
+      "toastText": "А где телефон ?"
+    }
+  },
+  "Shortcuts": {
+    "elementName": "ElementShortcuts",
+    "visible": true,
+    "Step": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "Cal": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "Heart": {
+      "position": -1,
+      "visible": true,
+      "show_level": "",
+      "x": 22,
+      "y": 142,
+      "w": 167,
+      "h": 145,
+      "src": "0003"
+    },
+    "PAI": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "Battery": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "Sunrise": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "Moon": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "BodyTemp": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "Weather": {
+      "position": 1,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": -1,
+      "y": 302,
+      "w": 390,
+      "h": 93,
+      "src": "0003",
+      "type": "WEATHER_CURRENT"
+    },
+    "Stand": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "SPO2": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "Altimeter": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "Stress": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "Countdown": {
+      "position": 2,
+      "visible": false,
+      "show_level": "ONLY_NORMAL",
+      "x": 224,
+      "y": 156,
+      "w": 162,
+      "h": 131,
+      "src": "",
+      "type": "COUNT_DOWN"
+    },
+    "Stopwatch": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "Alarm": {
+      "position": 3,
+      "visible": false,
+      "show_level": "ONLY_NORMAL",
+      "x": 1,
+      "y": 126,
+      "w": 220,
+      "h": 175,
+      "src": "0003",
+      "type": "ALARM_CLOCK"
+    },
+    "Sleep": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "Altitude": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "Readiness": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "OutdoorRunning": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "Walking": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "OutdoorCycling": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "FreeTraining": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "PoolSwimming": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "OpenWaterSwimming": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "TrainingLoad": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "VO2max": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "RecoveryTime": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "BreathTrain": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    },
+    "FatBurning": {
+      "position": -1,
+      "visible": false,
+      "show_level": "",
+      "x": 0,
+      "y": 0,
+      "w": 100,
+      "h": 100
+    }
+  },
+  "Buttons": {
+    "enable": true,
+    "Button": [
+      {
+        "position": -1,
+        "x": 153,
+        "y": 31,
+        "h": 62,
+        "w": 195,
+        "text": "",
+        "color": "0xFFFF8C00",
+        "text_size": 21,
+        "press_src": "0003",
+        "normal_src": "0003",
+        "press_color": "0xFFA0A0A0",
+        "normal_color": "0xFF696969",
+        "radius": 12,
+        "click_func": "hmApp.startApp({ appid: 1057409, url: 'page/index' });",
+        "longpress_func": "",
+        "vibro": false,
+        "visible": true
+      },
+      {
+        "position": -1,
+        "x": 209,
+        "y": 172,
+        "h": 114,
+        "w": 166,
+        "text": "",
+        "color": "0xFFFF8C00",
+        "text_size": 21,
+        "press_src": "0003",
+        "normal_src": "0003",
+        "press_color": "0xFFA0A0A0",
+        "normal_color": "0xFF696969",
+        "radius": 12,
+        "click_func": "hmApp.startApp({url: 'MusicCommonScreen', native: true });",
+        "longpress_func": "",
+        "vibro": false,
+        "visible": true
+      }
+    ]
+  },
+  "SwitchBG_Color": {
+    "enable": true,
+    "Button": {
+      "position": -1,
+      "x": 0,
+      "y": 399,
+      "h": 54,
+      "w": 390,
+      "text": "",
+      "color": "0xFFFF8C00",
+      "text_size": 25,
+      "press_src": "0003",
+      "normal_src": "0003",
+      "press_color": "0xFFA0A0A0",
+      "normal_color": "0xFF696969",
+      "radius": 12,
+      "click_func": "switchBG_Color();",
+      "longpress_func": "",
+      "vibro": false,
+      "visible": true
+    },
+    "color_list": [
+      "0xFF4AC49B",
+      "0xFFFF0000",
+      "0xFFFFFF00",
+      "0xFFFF8040",
+      "0xFF00FF00",
+      "0xFF80FFFF",
+      "0xFF0000FF",
+      "0xFF8080C0",
+      "0xFFFF0080",
+      "0xFF800000",
+      "0xFF008000",
+      "0xFF8000FF",
+      "0xFF808000",
+      "0xFF808080",
+      "0xFFFFFFFF"
+    ],
+    "toast_list": [
+      "Фон %s",
+      "Фон %s",
+      "Фон %s",
+      "Фон %s",
+      "Фон %s",
+      "Фон %s",
+      "Фон %s",
+      "Фон %s",
+      "Фон %s",
+      "Фон %s",
+      "Фон %s",
+      "Фон %s",
+      "Фон %s",
+      "Фон %s",
+      "Фон %s"
+    ],
+    "use_crown": false,
+    "use_in_AOD": false,
+    "vibro": false,
+    "select_index": 0
+  }
+}
